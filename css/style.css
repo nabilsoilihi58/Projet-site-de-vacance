@@ -1,0 +1,297 @@
+/* ----------Global------------ */
+/*---------Reset_Navigateurs----*/
+
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+/*//////////--Couleurs et Polices--////////*/
+
+h1 {
+  font: 84px "volkhov-bold";
+  color: white;
+}
+
+h2 {
+  font: 50px "volkhov-bold";
+  color: #14183e;
+}
+
+h3 {
+  font: 20px "poppins-bold";
+  color: #deaf00;
+}
+
+h4 {
+  font: 18px "poppins-regular";
+  font-weight: 600;
+  color: #5e6282;
+}
+
+h5 {
+  font: 500 16px/30px "poppins-regular";
+  color: white;
+}
+
+.texte-couleur-saumon {
+  color: #df6951;
+}
+
+.texte-couleur-gris-1 {
+  color: #bfc0cd;
+}
+
+.texte-couleur-gris-2 {
+  color: #8d8d8d;
+}
+
+.texte-couleur-gris-3 {
+  color: #3e3f43;
+}
+
+.texte-couleur-gris-bleu {
+  color: #5e6282;
+}
+
+.texte-couleur-bleu {
+  color: #1e1d4c;
+}
+
+.texte-couleur-sombre {
+  color: #22232c;
+  text-decoration: none;
+}
+
+.texte-couleur-noir {
+  color: #000;
+}
+
+.texte-poppins-bold {
+  font-family: "poppins-bold";
+}
+
+.texte-volkhov-bold {
+  font-family: "volkhov-bold";
+}
+
+.texte-poppins-regular {
+  font-family: "poppins-regular";
+}
+
+
+.lettrebicolor
+{
+    color:#ffffff;
+}
+
+.lettrescolor2
+{
+    color: #deaf00;
+}
+
+
+
+.ConteneurBandeTop
+{
+  
+    height: 20px;
+    width: 100%;
+    border-bottom:solid 2px #deae00;
+    background-color: #1d485c7e;
+}
+
+
+.ConteneurBandeBottom
+{
+    display: flex;
+    flex-direction: wrap;
+     width: 60%;
+    height: 60px;
+    background-color: #1d485c98;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 30px;
+    margin-top: 50px;
+
+
+}
+
+.ConteneurBandeBottom :hover
+{
+    
+    box-shadow: 0px 60px 180px -9px #1D485C;
+}
+
+
+.ConteneurBandeBottom div
+{
+ 
+    width: 20%;
+    border-radius: 30px;
+    border-left: solid 2px rgba(243, 243, 243, 0.5);
+}
+
+.ConteneurBandeBottom div p
+{
+    text-align: center;
+    
+}
+
+.ConteneurBandeBottom div p a
+{
+    font-family: "poppins-regular";
+    font-size: 17px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.ConteneurBottom
+{
+   margin-top: 150px;
+    text-align: center;
+
+}
+/*//////////////Menu-Burger///////////////////*/
+label 
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 35px;
+    color: white;
+}
+
+/*///////////////////Header///////////////////*/
+
+header {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  background-color: #1c2a3081;
+  
+ 
+  /*border: solid 1px black;*/
+}
+
+.D1météo {
+  width: 100%;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+
+}
+
+
+
+.D2logo {
+  width: 100%;
+  
+  text-align: center;
+  border: solid 1px rgba(255, 255, 255, 0.568);
+
+
+}
+
+.D2logo p{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+/*//////////HeaderNav/////////////*/
+
+
+
+
+header nav {
+  background-color:#1d485c;
+}
+
+.D3Nav {
+  width: 100%;
+  justify-content: center;
+  border: solid 1px rgb(255, 255, 255);
+}
+
+header nav ul {
+  display: flex;
+  width: 100%;
+  padding: 0%;
+  margin-top: 30px;
+  justify-content: center;
+ 
+  list-style-type: none;
+
+  border: solid 1px black;
+}
+
+nav ul a {
+  font-family: "poppins-regular";
+  font-size: medium;
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration-line: none;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+
+nav ul :hover
+{
+
+  text-decoration: underline;
+  transition-delay: 1s;
+}
+
+
+ .Image1{
+     
+     width: 100%;
+     background-size: cover;
+     background: no-repeat;
+    }
+
+    /*////////////Boutons///////////////////*/
+
+.BoutonDécouvrir {
+  font-family: "poppins-bold";
+  font-size: medium;
+  background-color: #deaf00;
+  border-radius: 225px;
+  color: #092330;
+  border: solid 1px #092330;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: scale 0.5s;
+
+}
+
+
+.BoutonDécouvrir2 {
+  font-family: "poppins-bold";
+  font-size: medium;
+  background-color: #ffffff;
+  color: #092330;
+  border: solid 1px #092330;
+  border-radius: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: scale 0.5s;
+}
+
+
+/*Images*/
