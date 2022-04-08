@@ -1,0 +1,43 @@
+
+.container{
+  background: url(/Img_voyage/bg.jpg) no-repeat center;
+  background-size: cover;
+  padding: 40px 40px;
+  text-align: center;
+  color: white;
+}
+.container p {
+  max-width: 600px;
+  margin: 40px auto;
+  font-size: 13px;
+  font-weight: 500;
+}
+.email-box{
+  height: 40px;
+  justify-content: center;
+  display: flex; 
+}
+.email-box i{
+  background: #2f3542;
+  width: 40px;
+  line-height: 40px;
+}
+.tbox,.btn{
+  border: none;
+  outline: none;
+}
+.tbox{
+  width: 0px;
+  transition: 0.6s;
+}
+.email-box:hover > .tbox,.tbox:focus{
+  width: 260px;
+  padding: 0 10px;
+}
+.btn{
+  background: #2f3542;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
