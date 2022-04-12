@@ -269,7 +269,7 @@ input[list="Destinations-voyages"] {
   width: 100%;
   margin-top: -150px;
 
-  animation: fondu 20s ease-in-out infinite both;
+  animation: fondu 10s ease-in-out infinite both;
 }
 
 .Diapoanime1:hover {
@@ -278,24 +278,24 @@ input[list="Destinations-voyages"] {
 
 @keyframes fondu {
   0% {
-    background-image: url(/Img_voyage/Découvrir_Porto_4.jpg);
+    background-image: url(/Img_voyage/hotel-g4ff841174_1920.jpg);
     background-repeat: no-repeat;
 
   }
 
   33.33% {
-    background-image: url(/Img_voyage/beach-g896a68f4f_1920.jpg);
+    background-image: url(/Img_voyage/swimming-pool-g8a5c4c0d2_1920.jpg);
     background-repeat: no-repeat;
 
   }
 
   66.67% {
-    background-image: url(/Img_voyage/nepal-g9252e40a1_1920.jpg);
+    background-image: url(/Img_voyage/window-g6fb81a91c_1920.jpg);
     background-repeat: no-repeat;
   }
 
   100% {
-    background-image: url(/Img_voyage/Découvrir_Lisbonne_4.jpg);
+    background-image: url(/Img_voyage/stars-g4d06a43b2_1920.jpg);
     background-repeat: no-repeat;
   }
 }
@@ -304,7 +304,7 @@ input[list="Destinations-voyages"] {
 
 .ConteneurBandeTop {
 
-  height: 40px;
+  height: 35px;
   width: 100%;
   border-bottom: solid 2px #e1a524;
   background-color: #1d485c00;
@@ -431,6 +431,7 @@ header:hover {
   width: 200px;
 top: -37px;
 left: 850px;
+cursor: pointer;
 
 }
 
@@ -491,17 +492,21 @@ nav ul :hover {
   border-radius: 5px;
   color: #092330;
   border: solid 1px #092330;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
   padding-top: 10px;
   padding-bottom: 10px;
   cursor: pointer;
   transition: scale 0.5s;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 
 }
 
 .BoutonDécouvrir:hover {
-  background-color: rgba(29, 26, 26, 0.226);
+  background-color: rgba(29, 26, 26, 0.151);
 }
 
 
@@ -590,408 +595,6 @@ input[type="search"] {
   text-align: center;
 }
 
-/*
-
-
-.Contenair1Sec2
-{
-  display: flex;
-  flex-direction: row;
-  background-color: #81b0e015;
-  justify-content:space-evenly;
-  padding-top: 100px;
-  width: 100%;
-  height: 500px;
-}
-
-.Contenair2Sec2
-{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-evenly;
-  background-color: #81b0e02d;
-  padding-top: 100px;
-  width: 100%;
-  height: 500px;
-  overflow:hidden;
-}
-
-.d1Carte {
-  width:300px;
-  height: 350px;
-  background-color: #1e1d4c;
-  
-  border-bottom :solid 2px #ffffff;
-  border-left:solid 2px #ffffff;
-
-  box-shadow: 0px 0px 109px -20px #384454;
-  background-image: url("/Img_voyage/Venise_carte_1.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  text-align:center;
-  cursor: pointer;
-  transition: transform 0.3s;
-
-  border-top-left-radius: 25px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 10px;
-
-}
-
-.d1Carte p
-{
-  
-width: 75%;
-border-radius: 0 0 0155px;
-background-color: rgba(255, 255, 255, 0.219);
-color: rgba(255, 255, 255, 0.767);
-border: solid 1px rgba(255, 255, 255, 0.253);
-padding-top:    5px;
-padding-bottom: 5px;
-margin-top: 300px;
-font-family: "poppins-regular";
-text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-
-
-.d2Carte {
-  width:300px;
-  height: 350px;
-  background-color: #1e1d4c;
-  
-  border-bottom :solid 2px #ffffff;
-  border-left:solid 1px #ffffff;
-  border-radius: 15px;
-  box-shadow: 0px 0px 109px -20px #384454;
-  background-image: url("/Img_voyage/Découvrir_Lisbonne_5.jpg");
-  background-size: 270%;
-  background-position-y: center;
-  background-position-x: center;
-  background-repeat: no-repeat;
-  text-align:center;
-  cursor: pointer;
-  transition: transform 0.2s;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 10px;
-  
-}
-.d2Carte p
-{
-  
-width: 75%;
-border-radius: 0 0 0155px;
-color: rgba(255, 255, 255, 0.767);
-background-color: rgba(255, 255, 255, 0.219);
-border: solid 1px rgba(255, 255, 255, 0.253);
-margin-top: 300px;
-font-family: "poppins-regular";
-padding-top:    5px;
-padding-bottom: 5px;
-text-shadow: black 0.1em 0.1em 0.2em;
-
-}
-
-.d3Carte {
-  width:300px;
-  height: 350px;
-  background-color: #1e1d4c;
-  
-  border-bottom :solid 2px #ffffff;
-  border-left:solid 1px #ffffff;
-  border-radius: 15px;
-  box-shadow: 0px 0px 109px -20px #384454;
- background-image: url("/Img_voyage/Montagne_1.jpg");
-  background-size: 200%;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  text-align:center;
-  cursor: pointer;
-  transition: transform 0.2s;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 25px;
-}
-
- 
-.d3Carte p
-{
-  
-width: 75%;
-border-radius: 0 0 0155px;
-color: rgba(255, 255, 255, 0.767);
-background-color: rgba(255, 255, 255, 0.219);
-border: solid 1px rgba(255, 255, 255, 0.253);
-margin-top: 300px;
-font-family: "poppins-regular";
-padding-top:    5px;
-padding-bottom: 5px;
-text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-.d4Carte {
-  width:300px;
-  height: 350px;
-  background-color: #1e1d4c;
-  border-bottom :solid 2px #ffffff;
-  border-left:solid 1px #ffffff;
-  border-radius: 15px;
-  box-shadow: 0px 0px 109px -20px #384454;
-  background-image: url("/Img_voyage/Mer_1.jpg");
-  background-size: 200%;
-  background-position-x: center;
-  background-position-y: center;
-  text-align:center;
-  cursor: pointer;
-  transition: transform 0.2s;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 25px;
-}
-.d4Carte p
-{
-  
-width: 75%;
-border-radius: 0 0 0155px;
-color: rgba(255, 255, 255, 0.767);
-background-color: rgba(255, 255, 255, 0.219);
-border: solid 1px rgba(255, 255, 255, 0.253);
-margin-top: 300px;
-font-family: "poppins-regular";
-padding-top:    5px;
-padding-bottom: 5px;
-text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-
-
-.d5Carte {
-  width:300px;
-  height: 350px;
-  background-color: #1e1d4c;
-  border-bottom :solid 2px #ffffff;
-  border-left:solid 1px #ffffff;
-  border-radius: 15px;
-  box-shadow: 0px 0px 109px -20px #384454;
-  background-image: url("/Img_voyage/Chateau_1.jpg");
-  background-size: 270%;
-  background-position-x: center;
-  background-position-y: center;
-  background-repeat: no-repeat;
-  text-align:center;
-  cursor: pointer;
-  transition: transform 0.2s;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 10px;
-}
-
-.d5Carte p
-{
-  
-width: 75%;
-border-radius: 0 0 0155px;
-color: rgba(255, 255, 255, 0.767);
-background-color: rgba(255, 255, 255, 0.219);
-border: solid 1px rgba(255, 255, 255, 0.253);
-margin-top: 300px;
-font-family: "poppins-regular";
-padding-top:    5px;
-padding-bottom: 5px;
-text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-.d6Carte {
-  width:300px;
-  height: 350px;
-  background-color: #1e1d4c;
-  border-bottom :solid 2px #ffffff;
-  border-left:solid 1px #ffffff;
-  border-radius: 15px;
-  box-shadow: 0px 0px 109px -20px #384454;
-  background-image: url("/Img_voyage/Viilage_France_1.jpg");
-  background-size: 260%;
-  background-position-x: center;
-  background-repeat: no-repeat;
-  text-align:center;
-  cursor: pointer;
-  transition: transform 0.2s;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 10px;
-}
-
-.d6Carte p
-{
-  
-width: 75%;
-border-radius: 0 0 0155px;
-color: rgba(255, 255, 255, 0.767);
-background-color: rgba(255, 255, 255, 0.219);
-border: solid1px rgba(255, 255, 255, 0.253);
-margin-top: 300px;
-font-family: "poppins-regular";
-padding-top:    5px;
-padding-bottom: 5px;
-text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-.d7Carte {
-  width:300px;
-  height: 350px;
-  background-color: #1e1d4c;
-  border-bottom :solid 2px #ffffff;
-  border-left:solid 1px #ffffff;
-  border-radius: 15px;
-  box-shadow: 0px 0px 109px -20px #384454;
-  background-image: url("/Img_voyage/Cascade_2.jpg");
-  background-size: 100%;
-  background-position-x: center;
-  background-position-y: center;
-  background-repeat: no-repeat;
-  text-align:center;
-  cursor: pointer;
-  transition: transform 0.2s;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 25px;
-}
-
-.d7Carte p
-{
-  
-width: 75%;
-border-radius: 0 0 0155px;
-background-color: rgba(255, 255, 255, 0.219);
-color: rgba(255, 255, 255, 0.767);
-border: solid 1px rgba(255, 255, 255, 0.253);
-margin-top: 300px;
-font-family: "poppins-regular";
-padding-top:    5px;
-padding-bottom: 5px;
-text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-.d8Carte {
-  width:300px;
-  height: 350px;
-  background-color: #1e1d4c;
-  border-bottom :solid 2px #ffffff;
-  border-left:solid 1px #ffffff;
-  border-radius:  15px;
-  box-shadow: 0px 0px 109px -20px #384454;
-  background-image: url("/Img_voyage/Venise_carte_1.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  text-align:center;
-  cursor: pointer;
-  transition: transform 0.2s;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 25px;
-  
-}
-
-.d8Carte p
-{
-  
-width: 75%;
-border-radius: 0 0 0155px;
-background-color: rgba(255, 255, 255, 0.219);
-color: rgba(255, 255, 255, 0.767);
-border: solid 1px rgba(255, 255, 255, 0.253);
-margin-top: 300px;
-font-family: "poppins-regular";
-padding-top:    5px;
-padding-bottom: 5px;
-text-shadow: black 0.1em 0.1em 0.2em;
-
-}
-.d1Carte p:hover
-{
-  color:  rgba(255, 255, 255, 0.850);
-  box-shadow: inset 0px 0px 105px -40px #000000;
-  
-}
-.d2Carte p:hover
-{
-  color:  rgba(255, 255, 255, 0.850);
-  box-shadow: inset 0px 0px 105px -40px #000000;
-}
-.d3Carte p:hover
-{
-  color:  rgba(255, 255, 255, 0.850);
-  box-shadow: inset 0px 0px 105px -40px #000000;
-  
-}
-.d4Carte p:hover
-{
-  color:  rgba(255, 255, 255, 0.850);
-  box-shadow: inset 0px 0px 105px -40px #000000;
-}
-.d5Carte p:hover
-{
-  color:  rgba(255, 255, 255, 0.850);
-  box-shadow: inset 0px 0px 105px -40px #000000;
-}
-.d6Carte p:hover
-{
-  color:  rgba(255, 255, 255, 0.850);
-  box-shadow: inset 0px 0px 105px -40px #000000;
-}
-.d7Carte p:hover
-{
-  color:  rgba(255, 255, 255, 0.850);
-  box-shadow: inset 0px 0px 105px -40px #000000;
-}
-.d8Carte p:hover
-{
-  color:  rgba(255, 255, 255, 0.850);
-  box-shadow: inset 0px 0px 105px -40px #000000;
-}
-
-.d1Carte:hover
-{
-  transform: scale(1.02);
-}
-.d2Carte:hover
-{
-  transform: scale(1.02);
-}
-.d3Carte:hover
-{
-  transform: scale(1.02);
-}
-.d4Carte:hover
-{
-  transform: scale(1.02);
-}
-.d5Carte:hover
-{
-  transform: scale(1.02);
-}
-.d6Carte:hover
-{
-  transform: scale(1.02);
-}
-.d7Carte:hover
-{
-  transform: scale(1.02);
-}
-.d8Carte:hover
-{
-  transform: scale(1.02);
-}
 
 /*New Cartes*/
 .Container2-Globale-Cartes {
@@ -1032,7 +635,8 @@ text-shadow: black 0.1em 0.1em 0.2em;
   height: 350px;
   border-radius: 30px;
   background-image: url("/Img_voyage/Venise_carte_1.jpg");
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-repeat: no-repeat;
   border-bottom: solid 2px #ffffff;
   border-left: solid 2px #ffffff;
@@ -1068,7 +672,8 @@ text-shadow: black 0.1em 0.1em 0.2em;
   height: 350px;
   border-radius: 30px;
   background-image: url("/Img_voyage/Découvrir_Lisbonne_5.jpg");
-  background-size: 270%;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: center;
 
@@ -1104,8 +709,8 @@ text-shadow: black 0.1em 0.1em 0.2em;
   width: 300px;
   height: 350px;
   border-radius: 30px;
-  background-image: url("/Img_voyage/Montagne_1.jpg");
-  background-size: 200%;
+  background-image: url("/Img_voyage/Découvrir_Porto_2.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -1141,8 +746,9 @@ text-shadow: black 0.1em 0.1em 0.2em;
   width: 300px;
   height: 350px;
   border-radius: 30px;
-  background-image: url("/Img_voyage/Mer_1.jpg");
-  background-size: 200%;
+  background-image: url("/Img_voyage/Louvre_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
   border-bottom: solid 2px #ffffff;
@@ -1174,7 +780,159 @@ text-shadow: black 0.1em 0.1em 0.2em;
 
 }
 
+/*2ème parties carte Images-Réservation*/
+#imgcarte5 {
 
+  text-align: center;
+  width: 300px;
+  height: 350px;
+  border-radius: 30px;
+  background-image: url("/Img_voyage/empire-state-building-g7d51a76cc_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  border-bottom: solid 2px #ffffff;
+  border-left: solid 2px #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 10px;
+  transition: transform 0.2s;
+
+}
+
+
+#imgcarte5 p {
+  width: 75%;
+  border-radius: 0155px 0px;
+  background-color: rgba(255, 255, 255, 0.219);
+  color: rgba(255, 255, 255, 0.767);
+  border: solid 1px rgba(255, 255, 255, 0);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 30px;
+  margin-top: 300px;
+  font-family: "poppins-regular";
+  text-shadow: black 0.1em 0.1em 0.2em;
+  
+}
+
+#imgcarte6 {
+
+  text-align: center;
+  width: 300px;
+  height: 350px;
+  border-radius: 30px;
+  background-image: url("/Img_voyage/tokyo-g0cd59f53f_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+
+  border-bottom: solid 2px #ffffff;
+  border-left: solid 2px #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 0px 109px -20px #384454;
+}
+
+
+#imgcarte6 p {
+  width: 75%;
+  border-radius: 0155px 0px;
+  background-color: rgba(255, 255, 255, 0.219);
+  color: rgba(255, 255, 255, 0.767);
+  border: solid 1px rgba(255, 255, 255, 0.253);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 30px;
+  margin-top: 300px;
+  font-family: "poppins-regular";
+  text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+#imgcarte7 {
+
+  text-align: center;
+  width: 300px;
+  height: 350px;
+  border-radius: 30px;
+  background-image: url("/Img_voyage/beach-gd3aa01fda_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  border-bottom: solid 2px #ffffff;
+  border-left: solid 2px #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 0px 109px -20px #384454;
+}
+
+
+#imgcarte7 p {
+  width: 75%;
+  border-radius: 0155px 0px;
+  background-color: rgba(255, 255, 255, 0.219);
+  color: rgba(255, 255, 255, 0.767);
+  border: solid 1px rgba(255, 255, 255, 0.253);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 30px;
+  margin-top: 300px;
+  font-family: "poppins-regular";
+  text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+#imgcarte8 {
+
+  text-align: center;
+  width: 300px;
+  height: 350px;
+  border-radius: 30px;
+  background-image: url("/Img_voyage/mosque-geaf52566c_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  border-bottom: solid 2px #ffffff;
+  border-left: solid 2px #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 0px 109px -20px #384454;
+}
+
+
+#imgcarte8 p {
+  width: 75%;
+  border-top-left-radius: 0155px; 
+  border-top-right-radius: 10px; 
+  border-bottom-left-radius: 15px; 
+  border-bottom-right-radius:15px ; 
+  background-color: rgba(255, 255, 255, 0.219);
+  color: rgba(255, 255, 255, 0.767);
+  border: solid 1px rgba(255, 255, 255, 0.253);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 30px;
+  margin-top: 300px;
+  font-family: "poppins-regular";
+  text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+/*-------------------------------------*/
 
 .infos-hover1 {
   display: flex;

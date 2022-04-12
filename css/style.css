@@ -117,7 +117,8 @@ Palettes couleurs
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 80px;
+ 
+  margin:auto;
   background-repeat: no-repeat;
 }
 
@@ -318,7 +319,7 @@ input[list="Destinations-voyages"] {
   flex-direction: wrap;
   width: 60%;
   height: 50px;
-  background-color: #f0f0f000;
+  background-color: #f0f0f00c;
   top: 200px;
   margin-left: 20%;
   margin-right: 20%;
@@ -342,6 +343,7 @@ input[list="Destinations-voyages"] {
 
   width: 20%;
   height: 50px;
+  margin-right: 20px;
   border-top-left-radius: 25px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 6px;
@@ -352,7 +354,8 @@ input[list="Destinations-voyages"] {
 
 .ConteneurBandeBottom div p {
   text-align: center;
-
+margin-right:10px;
+margin-left:10px;
 }
 
 .ConteneurBandeBottom div p a {
@@ -384,7 +387,7 @@ header {
   display: flex;
 
   flex-direction: row;
-  background-color: #1c2a3069;
+  background-color: #1c2a3060;
   transition-duration: 0.2s;
 
 
@@ -414,6 +417,8 @@ header:hover {
 
 
 .D2logo {
+  display: flex;
+flex-direction: row;
   width: 100%;
   margin: 0px;
   text-align: center;
@@ -421,18 +426,63 @@ header:hover {
 
 
 }
+/*
+.conteneurImage1
+{
 
+width: 50%;
+height: 98px;
+border: solid 1px black;
+background-image: url("/Img_voyage/Welnnes_Travel.png");
+background-size: 230px;
+background-position-x: right;
+background-position-y: center;
+background-repeat: no-repeat;
+}
 
+.conteneurImage2
+{
+  background-image: url("/Img_voyage/logo_wellness_2.png");
+  background-position-x: right;
+background-position-y: center;
+  background-size: 400px;
+width: 50%;
+height: 98px;
+border: solid 1px black;
+background-repeat: no-repeat;
+}
+*/
 
 
 .imageLogo {
 
   position: absolute;
-  width: 200px;
-top: -37px;
-left: 850px;
+  width: 250px;
+top: -78px;
+left: 650px;
+cursor: pointer;
 
 }
+
+.imageLogo:hover {
+
+opacity: 0.7;
+}
+
+.imageTexte {
+  position: absolute;
+  width: 450px;
+  top: -180px;
+  left: 750px;
+  cursor: pointer;
+
+}
+
+.imageTexte:hover {
+transition: scale 0.5s;
+
+
+  }
 
 /*//////////HeaderNav/////////////*/
 
@@ -518,6 +568,7 @@ nav ul :hover {
   border-top: 0px;
   border-radius: 1px;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 10px;
@@ -570,6 +621,8 @@ input[type="search"] {
   width: 100%;
   display: block;
   text-align: center;
+  margin-right:10px;
+margin-left:10px;
 }
 
 .contenair4 h4 {
@@ -1032,7 +1085,7 @@ text-shadow: black 0.1em 0.1em 0.2em;
   height: 350px;
   border-radius: 30px;
   background-image: url("/Img_voyage/Venise_carte_1.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   border-bottom: solid 2px #ffffff;
   border-left: solid 2px #ffffff;
@@ -1068,7 +1121,7 @@ text-shadow: black 0.1em 0.1em 0.2em;
   height: 350px;
   border-radius: 30px;
   background-image: url("/Img_voyage/Découvrir_Lisbonne_5.jpg");
-  background-size: 270%;
+  background-size: cover;
   background-position-y: center;
   background-position-x: center;
 
@@ -1105,7 +1158,7 @@ text-shadow: black 0.1em 0.1em 0.2em;
   height: 350px;
   border-radius: 30px;
   background-image: url("/Img_voyage/Montagne_1.jpg");
-  background-size: 200%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -1142,7 +1195,7 @@ text-shadow: black 0.1em 0.1em 0.2em;
   height: 350px;
   border-radius: 30px;
   background-image: url("/Img_voyage/Mer_1.jpg");
-  background-size: 200%;
+  background-size: cover;
   background-position-x: center;
   background-position-y: center;
   border-bottom: solid 2px #ffffff;
